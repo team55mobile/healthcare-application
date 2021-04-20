@@ -33,7 +33,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "ru.team55.healthcare-app"
+        applicationId "ru.team55.healthcareapp"
         minSdkVersion 16
         targetSdkVersion 30
         versionCode flutterVersionCode.toInteger()
