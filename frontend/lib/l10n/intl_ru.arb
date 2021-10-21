@@ -1,0 +1,7 @@
+{
+  "@appTitle": {
+    "description": "Описание приложения"
+  },
+  "appTitle": "Приложение",
+  "patientsList": "Пациенты"
+}

@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:frontend/main.dart';
+import './generated/l10n.dart'; //Intl plugin
 
 class ActorHomePage extends StatefulWidget {
-  ActorHomePage({Key key, this.title}) : super(key: key);
-
-  final String title;
+  ActorHomePage({Key? key}) : super(key: key);
 
   @override
   _ActorHomePageState createState() => _ActorHomePageState();
@@ -23,7 +22,7 @@ class _ActorHomePageState extends State<ActorHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.title),
+        title: Text(S.current.patientsList),
         // systemOverlayStyle: ,
         // elevation: 1,
       ),
@@ -46,7 +45,7 @@ class _ActorHomePageState extends State<ActorHomePage> {
 
 class SampleDecoratedImage extends StatelessWidget {
   const SampleDecoratedImage({
-    Key key,
+    Key? key,
   }) : super(key: key);
 
   @override
@@ -72,8 +71,8 @@ class SampleDecoratedImage extends StatelessWidget {
 
 class AppointmentInfoRow extends StatelessWidget {
   const AppointmentInfoRow({
-    Key key,
-    @required int counter,
+    Key? key,
+    required int counter,
   })  : _counter = counter,
         super(key: key);
 

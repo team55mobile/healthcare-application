@@ -1,0 +1,7 @@
+{
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  "appTitle": "my_app",
+  "patientsList": "Patients list"
+}
